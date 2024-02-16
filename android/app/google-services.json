@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60151611391",
+    "project_id": "aridnik-share-63b24",
+    "storage_bucket": "aridnik-share-63b24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60151611391:android:ff0b29e816eb3f180af1ca",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAGq5N0nUuxMzUkLzqBduB30OMwog-u0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
