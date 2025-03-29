@@ -62,7 +62,7 @@ class RechargePage extends StatelessWidget {
             ),
             SizedBox(height: 50),
             // Example: Payment Option Buttons with Images
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 PaymentOptionButton(
@@ -82,8 +82,8 @@ class RechargePage extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 40), // Adjust the height for spacing
-            Row(
+            const SizedBox(height: 40), // Adjust the height for spacing
+            const Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 PaymentOptionButton(

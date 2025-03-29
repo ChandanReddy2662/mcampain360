@@ -1,11 +1,13 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import './firebase_options.dart' as options;
 import 'package:myapp/screens/login.dart';
 
-// import 'asserts';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
+  Firebase.initializeApp(options: options.DefaultFirebaseOptions.currentPlatform);
 }
 
 class MyApp extends StatelessWidget {
